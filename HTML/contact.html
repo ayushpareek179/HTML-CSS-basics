@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <a href="index.html"><img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/icon-1976100_960_720.png" alt="Back to home" width="50"></a>
+    <a href="about.html"><img src="https://cdn.pixabay.com/photo/2021/11/01/05/21/unfold-6759442_960_720.png" alt="About" width = "50"></a>
+    <h1>Contact Us</h1>
+    <img src="https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg" width = "500" alt="Let's get in touch!">
+    <p>Enter your details below. We will get back to you real soon :-)</p>
+    <form id = "respuesta">
+        <fieldset>
+            <!--name attribute is returned for name, email and password-->
+            <!--value attribute is returned for radio, checkbox and select-->
+            <label for="fName">First Name</label> <br>
+            <input type="name" id="fName" name = "fname" placeholder="Sergio"> <br> <!--label for should match id-->
+            <label for="lName">Last Name</label> <br>
+            <input type="name" id = "lName" name = "lname" placeholder="Vazquez"> <br> <!--name attribute corresponds to data collection in backend-->
+            <label for="email">E-Mail ID</label> <br>
+            <input type="email" id="email" name = "EMail" value = "email@domainName.com"> <br>
+            <label for="pwd">Password</label> <br>
+            <input type= "password" id = "pwd" name = "Pass" placeholder="Password"> <br>
+            <!--Radio buttons-->
+            <!--All must have same "name" atribute to prevent multiple filled radios-->
+            <label for="Africa">You live in:</label> <br>
+            <input type= "radio" name = "myHome" id = "Africa" value="Africa">
+            <label for="Africa">Africa</label>
+            <input type= "radio" name = "myHome" id = "Asia" value="Asia">
+            <label for="Asia">Asia</label>
+            <input type= "radio" name = "myHome" id = "Aus" value="Australia">
+            <label for="Aus">Australia</label>
+            <input type= "radio" name = "myHome" id = "Europe" value = "Europe">
+            <label for="Europe">Europe</label>
+            <input type= "radio" name = "myHome" id = "NAmerica" value = "North America">
+            <label for="NAmerica">North America</label>
+            <input type= "radio" name = "myHome" id = "SAmerica" value="South America">
+            <label for="myHome">South America</label>
+            <br>
+            <!--Checkbox-->
+            <!--name attribute need not be same for all-->
+            <label for="lang1">You are proficient in:</label> <br>
+            <input type= "checkbox" name="languages" id = "lang1" value="English">
+            <label for="lang1">English</label>
+            <input type= "checkbox" name="languages" id = "lang2" value="French">
+            <label for="lang2">French</label>
+            <input type= "checkbox" name="languages" id = "lang3" value = "Spanish">
+            <label for="lang3">Spanish</label>
+            <input type= "checkbox" name="languages" id = "lang4" value = "Chinese">
+            <label for="lang4">Chinese</label>
+            <input type= "checkbox" name="languages" id = "lang5" value = "Arabic">
+            <label for="lang5">Arabic</label>
+            <input type= "checkbox" name="languages" id = "lang6" value="Russian">
+            <label for="lang6">Russian</label>
+            <input type= "checkbox" name="languages" id = "langX" value = "Others">
+            <label for="langX">Others</label>
+            <br>
+            <!--Select - dropdown menu-->
+            <!--value attribute is returned-->
+            <label for="multiplicity">You identify as a:</label> <br>
+            <select name="langsKnown" id="multiplicity">
+                <option value="Mono">Monolingual</option>
+                <option value="Bi">Bilingual</option>
+                <option value="Tri">Trilingual</option>
+                <option value="N">A polyglot!</option>
+            </select>
+            <br>
+            <label for="Quiero">Why do you want to learn Spanish?</label> <br>
+            <textarea name="Reason" id="Quiero" cols="30" rows="10"></textarea> <br>
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit" form = "respuesta" onclick= "alert('Your response has been recorded!')">Send!</button>
+    <br>
+    <br>
+    <p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the language</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </p>
+</body>
+</html>
