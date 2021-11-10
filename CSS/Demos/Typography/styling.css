@@ -1,0 +1,22 @@
+.para-one {
+  line-height: 40px;
+  letter-spacing: 3.5px;
+  text-decoration: overline;
+}
+
+.para-two {
+  line-height: 0.5em;
+  word-spacing: 5px;
+}
+
+.conc {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.head {
+  text-decoration: line-through;
+}
+a {
+  text-decoration: none;
+}
