@@ -1,0 +1,19 @@
+div {
+  color: darkseagreen;
+  background: lightgoldenrodyellow;
+}
+span {
+  text-transform: uppercase;
+  background: deeppink;
+  color: azure;
+}
+.info {
+  size: 2.5rem;
+  color: forestgreen;
+}
+.initial {
+  font-size: 130%;
+}
+#Segundo {
+  font-family: fantasy;
+}

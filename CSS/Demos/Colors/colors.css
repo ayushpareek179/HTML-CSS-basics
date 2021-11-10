@@ -1,0 +1,18 @@
+#uno {
+  color: rgba(255, 0, 0, 0.99);
+  background-color: #5aa9e6;
+  /* Using the name directly */
+}
+#dos {
+  color: hsl(120, 100%, 50%);
+  background: #08415c;
+  /* Shorthand */
+}
+#tres {
+  color: white;
+  background: rgb(229, 88, 18);
+  /* Using RGB */
+}
+body {
+  background-color: hsla(47, 87%, 66%, 0.904);
+}

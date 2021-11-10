@@ -1,0 +1,20 @@
+p {
+  font: 1em sans-serif;
+  color: aqua;
+}
+* {
+  background-color: lightyellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+div {
+  color: rebeccapurple;
+  font-size: 15pt;
+}
+h3 {
+  text-transform: capitalize;
+  color: firebrick;
+}
+p {
+  font: 0.8em times-new-roman;
+  color: brown;
+}

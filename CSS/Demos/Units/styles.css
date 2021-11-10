@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+#navbar {
+  color: aliceblue;
+  font-size: 2em;
+  height: 3rem;
+  background-color: midnightblue;
+}
+#banner {
+  background-color: blue;
+  min-height: calc(100vh - 3rem);
+}
+h2 {
+  font-style: italic;
+}
