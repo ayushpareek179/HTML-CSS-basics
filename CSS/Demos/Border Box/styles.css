@@ -1,0 +1,22 @@
+#b1,
+#b2,
+#b3 {
+  color: white;
+  width: 200px;
+  height: 180px;
+  box-sizing: border-box;
+}
+
+#b1 {
+  background-color: red;
+  padding: 2rem;
+}
+
+#b2 {
+  background-color: green;
+}
+
+#b3 {
+  background-color: thistle;
+  padding: 1rem;
+}
