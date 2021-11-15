@@ -1,0 +1,17 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  text-align: center;
+  /* background-color: blue; */
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: blue;
+  color: black;
+  padding: 2em;
+  margin: 0.5rem;
+}

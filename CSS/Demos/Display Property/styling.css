@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+.block {
+  background-color: brown;
+  color: cyan;
+  /* display: inline; */
+  width: 5em;
+  margin: 1em auto;
+}
+.inline {
+  background-color: blanchedalmond;
+  color: cornflowerblue;
+  /* display: block; */
+}
