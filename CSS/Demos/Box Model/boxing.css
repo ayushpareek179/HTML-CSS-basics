@@ -1,0 +1,50 @@
+body {
+  margin: 0; /*Zeroed out the default*/
+}
+h1 {
+  background-color: chartreuse;
+  color: darkblue;
+  /* padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 30px;
+  -Explicit declarations- */
+  /* padding: 50px 40px 60px 30px; Top-Right-Left-Bottom */
+  /* padding: 2em 4em; Top/Bottom - Right/Left */
+  padding: 2em; /*All around*/
+  border-style: solid;
+  border-color: #000fff;
+  border-width: 4px;
+  margin: 0.3em; /*same value all around*/
+  border-radius: 2em; /*border edges are rounded*/
+}
+p {
+  background-color: darkorange;
+  color: darkslategray;
+  font-weight: bolder;
+  padding: 3em;
+  border: solid darkorchid 0.5rem; /*Shortcut - order matters*/
+  margin: 6px; /*negative values lead to an overlap*/
+  border-radius: 50%; /*Forms a circle out of the element*/
+}
+div {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  background-color: #ee0031;
+  color: #12e301;
+  padding: 1em 2em;
+  margin: 1em;
+  cursor: pointer;
+}
+#border {
+  border: 6px solid #333;
+}
+#outline {
+  /* outline-style: solid;
+  outline-color: #333;
+  outline-width: 6px; */
+  outline: 6px solid #333;
+  outline-offset: 4px;
+}
