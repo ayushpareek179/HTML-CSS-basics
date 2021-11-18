@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#big,
+#small,
+#folder {
+  /* color: yellow; */
+  color: violet;
+  background-color: blue;
+  font-size: 4rem;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#big {
+  background: url("./Images/Big_Amsterdam.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#small {
+  border: solid 4px black;
+  background: url("./Images/Small_Mountains.jpg");
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: round; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: 40% 30%;
+  background-attachment: fixed;
+}
+
+#folder {
+  background: url("./Images/Folder/Folder_Highway.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
