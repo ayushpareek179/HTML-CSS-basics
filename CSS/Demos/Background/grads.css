@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#cols div {
+  height: 200px;
+  width: 100px;
+  margin: 4px;
+  display: inline-block;
+}
+
+#one {
+  background: linear-gradient(to bottom, green, brown, #ef9021);
+  /* Default setting */
+}
+
+#two {
+  background: linear-gradient(
+    to top,
+    rgb(24, 79, 100),
+    rgba(128, 229, 47, 0.8)
+  );
+}
+
+#three {
+  width: 400px;
+  background: linear-gradient(
+    270deg,
+    #f9201e,
+    orange,
+    yellow,
+    rgba(0, 255, 0, 0.8),
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#four {
+  background: linear-gradient(to bottom left, brown, gold);
+}
+
+#five {
+  background: linear-gradient(to right, rgb(41, 153, 153), #ef9021);
+}
+
+#pic1,
+#pic2 {
+  color: green;
+  background-color: honeydew;
+  font-size: 4rem;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pic1 {
+  background: url("./Images/Folder/Folder_Highway.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#pic2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Images/Folder/Folder_Highway.jpg") center/cover fixed no-repeat;
+}
