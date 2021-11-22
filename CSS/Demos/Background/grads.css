@@ -45,6 +45,33 @@
   background: linear-gradient(to right, rgb(41, 153, 153), #ef9021);
 }
 
+#six {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4f4b6+0,799eb2+33,799eb2+63,ebec86+100 */
+  background: rgb(244, 244, 182); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(244, 244, 182, 1) 0%,
+    rgba(121, 158, 178, 1) 33%,
+    rgba(121, 158, 178, 1) 63%,
+    rgba(235, 236, 134, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(244, 244, 182, 1) 0%,
+    rgba(121, 158, 178, 1) 33%,
+    rgba(121, 158, 178, 1) 63%,
+    rgba(235, 236, 134, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(244, 244, 182, 1) 0%,
+    rgba(121, 158, 178, 1) 33%,
+    rgba(121, 158, 178, 1) 63%,
+    rgba(235, 236, 134, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4b6', endColorstr='#ebec86',GradientType=0 ); /* IE6-9 */
+}
+
 #pic1,
 #pic2 {
   color: green;
