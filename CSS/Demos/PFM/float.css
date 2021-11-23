@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.zero {
+  min-height: 50vh;
+  border: solid 0.3em gold;
+}
+
+div img {
+  margin: 0.5em;
+}
+
+.one {
+  float: left;
+  height: 10vh;
+}
+
+.two {
+  float: right;
+  height: 20vh;
+}
+
+.zero p {
+  clear: none;
+}
+
+.first,
+.second,
+.third {
+  width: 32.5%;
+  min-height: 40vh;
+  float: left;
+  padding: 3px;
+  margin: 2px;
+}
+
+.first {
+  background-color: hotpink;
+}
+
+.second {
+  background-color: khaki;
+}
+
+.third {
+  background-color: lightgreen;
+}
+
+p {
+  clear: both;
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+div#out {
+  background-color: blueviolet;
+  border: solid 4px greenyellow;
+  height: 200px;
+  margin-top: 2em;
+  /* position: relative; */
+}
+p#one {
+  background-color: indianred;
+  color: lavenderblush;
+  position: relative;
+  /* Has no impact */
+  top: 5px;
+}
+
+p#two {
+  background-color: lightcyan;
+  color: lightseagreen;
+  /* position: relative; */
+}
+
+span#three {
+  background-color: maroon;
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+button {
+  font-size: 1.5em;
+  background-color: chartreuse;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
