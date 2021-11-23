@@ -1,0 +1,35 @@
+#one,
+#two,
+#three {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+#banner {
+  margin: 20px;
+  height: 45vh;
+  width: 70vw;
+  border: solid 2px brown;
+  position: relative;
+}
+
+#one {
+  top: 0;
+  left: 0;
+  /* position: static; */
+  z-index: 0;
+  /* default value */
+}
+
+#two {
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+}
+
+#three {
+  top: 40px;
+  left: 40px;
+  z-index: -2;
+}

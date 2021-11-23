@@ -1,0 +1,38 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.banner {
+  background-color: darkorange;
+}
+
+.banner h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: floralwhite;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: rebeccapurple;
+  }
+  .banner {
+    background-color: seashell;
+    border-radius: 15px;
+  }
+  .banner h1 {
+    text-align: left;
+    color: sienna;
+    text-decoration: none;
+    font-size: 3em;
+  }
+}
+/* min - from */
+
+@media screen and (max-width: 550px) {
+  .banner h1 {
+    font-family: Tahoma, serif;
+  }
+}
+/* max - up till */
