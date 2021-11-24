@@ -1,0 +1,24 @@
+/* :hover */
+h1:hover {
+  color: coral;
+}
+
+.para:hover {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* link specific pseudo classes */
+a:link {
+  font-family: tahoma, sans-serif;
+}
+a:visited {
+  color: crimson;
+}
+a:active {
+  font-size: 2em;
+}

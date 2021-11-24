@@ -1,0 +1,40 @@
+/* All of these are basic selectors */
+* {
+  color: burlywood;
+}
+
+#head {
+  text-transform: lowercase;
+  color: chocolate;
+  font-size: 3em;
+}
+
+.head {
+  color: coral;
+  font-weight: lighter;
+}
+
+p {
+  font-family: cursive;
+}
+
+/* Child and descendant selectors */
+div h1 {
+  font-family: fantasy;
+  color: darkred;
+} /*Both are selected*/
+
+div > h1 {
+  font-variant: small-caps;
+} /*Only the child is selected*/
+
+/* Specificity of id/class selectors is more than child/descendants */
+
+/* Two more pseudo selectors */
+div p::first-line {
+  color: black;
+}
+
+div p::first-letter {
+  font-size: 2rem;
+}
