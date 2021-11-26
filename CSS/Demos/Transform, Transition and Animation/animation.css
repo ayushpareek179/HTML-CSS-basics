@@ -1,0 +1,53 @@
+div {
+  width: 30vw;
+  height: 30vh;
+  color: whitesmoke;
+  box-sizing: border-box;
+  margin: 0.5em;
+}
+
+.transition {
+  background-color: darkolivegreen;
+  transition: all 1s 200ms ease-in-out;
+}
+
+.transition:hover {
+  transform: translateX(50vw);
+  font-size: 1.5em;
+}
+
+.animation {
+  background-color: darkred;
+  opacity: 0.3;
+  /* animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: 5;
+  animation-delay: 1.2s; */
+  animation: move 5s 2 1.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  25% {
+    transform: translateX(70vw);
+    background-color: gold;
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateX(0vw);
+    background-color: lime;
+    opacity: 0.8;
+  }
+  67.5% {
+    opacity: 1;
+  }
+  75% {
+    transform: scale(0.5);
+    background-color: mediumblue;
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.4;
+    background-color: lightsalmon;
+  }
+}

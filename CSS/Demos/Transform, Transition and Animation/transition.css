@@ -1,0 +1,50 @@
+div {
+  box-sizing: border-box;
+  width: 40vw;
+  height: 30vh;
+  margin: 0.5em;
+  padding: 8px;
+  display: inline-block;
+  font-weight: bolder;
+  color: whitesmoke;
+  transition: all 3s 500ms;
+}
+
+#uno:hover,
+#dos:hover,
+#tres:hover {
+  background-color: gold;
+  color: black;
+  /* transition-delay: 500ms; */
+}
+
+#uno:hover {
+  border-radius: 50%;
+}
+
+#uno {
+  background-color: indianred;
+  /* transition-property: border-radius;
+  transition-duration: 3s; */
+}
+
+#dos:hover {
+  transform: translateY(100px);
+}
+
+#dos {
+  background-color: mediumaquamarine;
+  /* transition-property: transform;
+  transition-duration: 4s; */
+}
+
+#tres:hover {
+  font-size: 2em;
+}
+
+#tres {
+  background-color: cornflowerblue;
+  /* transition-property: background-color, font-size;
+  transition-duration: 2s, 4s; */
+  /* transition: background-color 2s 800ms, font-size 4s 600ms; */
+}
