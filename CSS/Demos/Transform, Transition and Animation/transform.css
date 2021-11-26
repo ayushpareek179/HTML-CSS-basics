@@ -1,0 +1,25 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+#one {
+  background-color: deeppink;
+  transform: translate(50%, 50%);
+}
+
+#two {
+  background-color: deepskyblue;
+  transform: scale(1.2, 0.8);
+}
+
+#three {
+  background-color: forestgreen;
+  transform: rotate(45deg);
+}
+
+#four {
+  background-color: gold;
+  transform: skew(150deg, 30deg);
+}
