@@ -1,0 +1,36 @@
+:root {
+  --primaryColor: #f022ed;
+  --secondayColor: #dd00cc;
+  --mainTransition: all 2s ease-in-out;
+  --stapleSize: 1.5em;
+}
+
+.heading1 {
+  color: var(--primaryColor);
+}
+
+.text2 {
+  --standaradWidth: 50vw;
+  --specialColor: #43df21;
+}
+
+div p {
+  width: var(--standaradWidth);
+  text-align: center;
+  margin: 0 auto;
+  color: var(--specialColor);
+}
+
+.heading2 {
+  color: var(--specialColor);
+  /* Outside the scope, no output */
+}
+
+.heading3 {
+  transition: var(--mainTransition);
+}
+
+.heading3:hover {
+  font-size: var(--stapleSize);
+  background-color: var(--secondayColor);
+}
