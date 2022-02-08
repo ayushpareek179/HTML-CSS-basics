@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex; /*Initialized as flexbox*/
+  border: 2px solid black;
+  height: 50vh;
+  /* Properties */
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  height: 20vh;
+  width: 20vw;
+  background-color: chartreuse;
+  margin: 4px;
+}
+
+.i1 {
+  order: 1;
+  flex-grow: 1;
+}
+
+.i2 {
+  align-self: flex-start;
+}
+
+.i3 {
+  flex-grow: 3;
+  flex-shrink: 2;
+}
+
+.i4 {
+  align-self: flex-end;
+}
